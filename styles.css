@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+.name{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 6%;
+}
+.yoo2{
+    color: #ff004f;
+}
+body {
+    background: #080808;
+    color: rgb(243, 238, 247);
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-image: url('image/3c0c0b43-964a-4c79-bb8b-728164dd73ea.jpeg');
+    background-size: cover;
+    background-position: right center;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.container{
+    padding: 15px; 10%
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlist{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navlist a{
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 10px 30px;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#header-text{
+    margin-top: 15%;
+    font-size: 30px;
+    color: rgb(243, 234, 234);
+    padding-left: 6%;  
+}
+.front{
+    font-size: 20px;
+    font-weight: 50;
+}
+.down{
+    font-size: 35px;
+    font-weight: 600;
+}
+.header-text p{
+    font-size: 60px;
+    margin-top: 20px;
+    color: rgba(250, 244, 244, 0.95);
+}
+#about{
+    padding: 80px 0;   
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+    
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    
+}
+.tab-links::after{
+    content: "";
+    position: absolute;
+    background-color: #ff004f;
+    width: 0;
+    height: 3px;
+    bottom: -8px;
+    left: 0;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width: 50%; 
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contents ul li span{
+    color: #b54769;
+    font-size: 15px;
+}
+.tab-contents{
+    display: none;
+}
+.yoo{
+    color: #ff004f;
+}
+
+
